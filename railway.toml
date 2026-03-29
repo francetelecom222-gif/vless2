@@ -1,5 +1,7 @@
 [deploy]
 startCommand = "v2ray run -config /etc/v2ray/config.json"
+healthcheckPath = "/"
+healthcheckTimeout = 300
 
 [[services]]
 internalPort = 8080
